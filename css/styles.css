@@ -457,7 +457,7 @@ button {
   color: --main-bg-cl;
   margin-bottom: 16px;
   color: var(--main-bg-cl);
-  
+
 }
 .footer-icon {
     width: 40px;
@@ -533,10 +533,11 @@ fill: var(--studio-cl);
 }
 .potrf-element {
     display: block;
+
 }
 .portf-element:hover,
 .portf-element:focus {
-    box-decoration-break: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
+    box-decoration-break: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .link {
   text-decoration: none;
