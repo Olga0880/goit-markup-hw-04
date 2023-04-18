@@ -65,6 +65,7 @@ button {
 /* Header */
 .header {
     border-bottom: 1px solid var(--btn-bg-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .header-container {
     display: flex;
@@ -166,8 +167,16 @@ font-weight: 400;
  
 /* Section 1 */
 .hero {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 padding: 188px 0;
+background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url(../images/section-1/people-office.jpg);
 background-color: var(--head-txt-cl);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
 }
 .hero-item {
 
@@ -201,6 +210,7 @@ margin-left: 500px;
 border: none;
 height: 56px;
 border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
 .hero-btn:hover,
@@ -210,6 +220,7 @@ background-color: var(--accent-txt-cl);
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+   
 }
 
 /* Section 2 */
@@ -243,7 +254,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-txt-cl);
-
+}
+.about-list-icon {
+    background-color: var(--studio-cl);
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    padding: 24px 100px;
 }
 .about-list {
     width: calc((100% - 72px) / 4);
@@ -293,6 +310,8 @@ margin-bottom: 72px;
 .team-photo {
     background-color: var(--main-bg-cl);
     padding-top: 0px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -302,7 +321,7 @@ margin-bottom: 72px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--head-txt-cl);
-    margin-bottom: 8px;
+    
 }
 
 .profession {
@@ -310,6 +329,7 @@ margin-bottom: 72px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
+    margin-bottom: 8px;
 
 }
 .team section {
@@ -320,7 +340,50 @@ margin-bottom: 72px;
     border-radius: 0 0 4px 4px;
     text-align: center;
     margin-bottom: 8px;
+}
 
+/* Section 5 */
+.customers {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--head-txt-cl);
+margin-top: 120px;
+margin-bottom: 72px;
+
+}
+.customers-list {
+    display: flex;
+    gap: 24px;
+    width: 168px;
+    height: 88px;
+    border-color: #8E8F99;
+    margin-bottom: 120px;
+    padding-left: 156px;
+
+}
+/* Social Icons */
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--btn-cl);
+    border-radius: 50%;
+}
+.social-link:hover,
+.social-link:focus {
+    background-color:  var(--accent-txt-cl);
 }
 /* FOOTER */
 
@@ -435,5 +498,7 @@ color: #F4F4FD;
     padding: 32px 16px;
     border: 1px solid var(--btn-bg-cl);
     border-top: none;
-
 }
+.flex-element:hover,
+.flex-eleement:focus {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
+    
