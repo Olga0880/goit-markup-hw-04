@@ -400,6 +400,11 @@ button {
   background-color: var(--accent-txt-cl);
 }
 /* FOOTER */
+.all-footer {
+    display: flex;
+    align-items: baseline;
+
+}
 
 .footer {
   background-color: var(--head-txt-cl);
@@ -436,7 +441,7 @@ button {
   font-size: 16px;
 }
 .footer-container {
-
+margin-right: 120px;
 }
 .footer-media {
     font-weight: 500;
