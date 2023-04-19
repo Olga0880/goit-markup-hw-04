@@ -537,9 +537,8 @@ fill: var(--studio-cl);
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
 }
-.potrf-element {
+.portf-element {
     display: block;
-
 }
 .portf-element:hover,
 .portf-element:focus {
