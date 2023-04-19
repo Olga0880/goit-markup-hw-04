@@ -407,6 +407,7 @@ button {
 .all-footer {
   display: flex;
   align-items: baseline;
+  gap: 120px;
 }
 
 .footer {
@@ -445,9 +446,14 @@ button {
 }
 .footer-container {
   gap: 120px;
-  display: flex;
+  display: block;
   align-items: baseline;
-  margin-right: 120px;
+  margin-left: 120px;
+  width: 264px;
+ 
+}
+.right-side {
+    width: 208px;
 }
 .footer-media {
   font-weight: 500;
