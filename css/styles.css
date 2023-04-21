@@ -256,7 +256,6 @@ button {
   width: 264px;
   height: 112px;
   margin-bottom: 8px;
-  padding: 24px 100px;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
@@ -339,7 +338,6 @@ button {
   padding: 32px 16px;
   border-radius: 0 0 4px 4px;
   text-align: center;
-  margin-bottom: 8px;
   padding: 32px 0;
 }
 
@@ -360,7 +358,7 @@ button {
 .customers-list {
   gap: 24px;
   display: flex;
-  margin-bottom: 120px;
+
 }
 .customer-link {
   display: flex;
@@ -374,16 +372,18 @@ button {
 }
 .customer-link:hover,
 .customer-link:focus {
-  border-color: #404bbf;
-  color: #404bbf;
+  border-color: 1px solid var(--accent-txt-cl);
+  color: var(--accent-txt-cl);
 }
 .about-list-icon {
   fill: currentColor;
 }
+
 .customers-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
+
 /* Social Icons */
 .socials {
   display: flex;
@@ -408,6 +408,7 @@ button {
   display: flex;
   align-items: baseline;
   gap: 120px;
+  
 }
 
 .footer {
@@ -448,12 +449,13 @@ button {
   gap: 120px;
   display: block;
   align-items: baseline;
-  margin-left: 120px;
+  margin-left: 0;
   width: 264px;
  
 }
 .right-side {
     width: 208px;
+    margin-right: 692px;
 }
 .footer-media {
   font-weight: 500;
@@ -489,6 +491,7 @@ button {
 .footer-social-link {
   display: flex;
   gap: 16px;
+  align-items: baseline;
 }
 .footer-link {
 fill: var(--studio-cl);
@@ -573,9 +576,7 @@ fill: var(--studio-cl);
   border: 1px solid var(--btn-bg-cl);
   border-top: none;
 }
-.flex-element {
-  display: block;
-}
+
 .flex-element:hover,
 .flex-eleement:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
